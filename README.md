@@ -5,6 +5,7 @@ This repository documents a hands-on Identity & Access Management (IAM) lab focu
 The goal was to simulate how real organizations structure identities and manage access **at scale** using governance-friendly patterns (groups, delegation, and access inheritance).
 
 ---
+
 ## Skills Demonstrated (What This Lab Proves)
 - Active Directory identity modeling (OUs, users, groups)
 - RBAC design: assigning access via security groups (not individual users)
@@ -19,6 +20,8 @@ The goal was to simulate how real organizations structure identities and manage 
 ## Lab Design (Quick Architecture)
 **Identity structure:** `corp.local` → departmental OUs (HR / IT / ServiceAccounts / Users)  
 **Access model:** users → security groups aligned to roles → access inherited through membership
+
+---
 
 ## What I Built (Lab Summary)
 
@@ -47,10 +50,14 @@ The goal was to simulate how real organizations structure identities and manage 
 
 ## Screenshots (Evidence)
 
+### 1) OU Structure – Departmental Segmentation
 ![OU Structure](images/slide1-ou-structure.png)
-![RBAC Assignment](images/slide2-rbac-assignment.png)
-![RBAC Enforcement](images/slide3-rbac-enforcement.png)
 
+### 2) Security Group Membership – RBAC Assignment
+![RBAC Assignment](images/images/slide2-rbac-assignment.png)
+
+### 3) User Membership – RBAC Enforcement
+![RBAC Enforcement](images/slide3-rbac-enforcement.png)
 
 ---
 
@@ -58,6 +65,7 @@ The goal was to simulate how real organizations structure identities and manage 
 
 ### RBAC (Role-Based Access Control)
 Instead of assigning permissions directly to users, access is assigned to **groups aligned to roles**.
+
 This approach supports:
 - **Least privilege**
 - **Scalability**
@@ -74,7 +82,6 @@ Departmental OUs make it easier to:
 ---
 
 ## Key Learnings
-
 - **Structure matters**: OUs make identity administration scalable and organized.
 - **Groups are governance**: group-based provisioning reduces complexity and audit risk.
 - **Inheritance is the enforcement layer**: the user’s access story is visible and verifiable.
@@ -82,7 +89,6 @@ Departmental OUs make it easier to:
 ---
 
 ## How to Reproduce (High-Level Steps)
-
 1. Install AD DS on Windows Server and promote to Domain Controller
 2. Create OUs (HR, IT, ServiceAccounts, Users)
 3. Create users aligned to each OU
@@ -101,4 +107,8 @@ Departmental OUs make it easier to:
 
 ## Contact
 If you work in IAM / Identity Security and want to connect, feel free to reach out on LinkedIn.
-# iam-lab-rbac-governance
+
+
+---
+
+
