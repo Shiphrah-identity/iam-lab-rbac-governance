@@ -5,6 +5,17 @@ This repository documents a hands-on Identity & Access Management (IAM) lab focu
 The goal was to simulate how real organizations structure identities and manage access **at scale** using governance-friendly patterns (groups, delegation, and access inheritance).
 
 ---
+Skills Demonstrated
+
+Identity provisioning (ADUC)
+
+OU design for delegation
+
+RBAC via security groups
+
+Least privilege + auditability
+
+Access inheritance validation
 
 ## What I Built (Lab Summary)
 
