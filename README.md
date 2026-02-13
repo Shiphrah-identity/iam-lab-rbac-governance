@@ -5,17 +5,20 @@ This repository documents a hands-on Identity & Access Management (IAM) lab focu
 The goal was to simulate how real organizations structure identities and manage access **at scale** using governance-friendly patterns (groups, delegation, and access inheritance).
 
 ---
-Skills Demonstrated
+## Skills Demonstrated (What This Lab Proves)
+- Active Directory identity modeling (OUs, users, groups)
+- RBAC design: assigning access via security groups (not individual users)
+- Governance mindset: least privilege + scalable access management
+- Audit-friendly verification: validating access inheritance via “Member Of”
 
-Identity provisioning (ADUC)
+## Tools & Environment
+- VirtualBox (hosted lab)
+- Windows Server 2022 (Domain Controller)
+- Active Directory Users and Computers (ADUC)
 
-OU design for delegation
-
-RBAC via security groups
-
-Least privilege + auditability
-
-Access inheritance validation
+## Lab Design (Quick Architecture)
+**Identity structure:** `corp.local` → departmental OUs (HR / IT / ServiceAccounts / Users)  
+**Access model:** users → security groups aligned to roles → access inherited through membership
 
 ## What I Built (Lab Summary)
 
