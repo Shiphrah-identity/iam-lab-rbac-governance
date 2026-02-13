@@ -47,16 +47,10 @@ The goal was to simulate how real organizations structure identities and manage 
 
 ## Screenshots (Evidence)
 
-> Add your annotated images into `/images/` and update the paths below.
-
-### 1) OU Structure – Departmental Segmentation
 ![OU Structure](images/slide1-ou-structure.png)
-
-### 2) Security Group Membership – RBAC Assignment
 ![RBAC Assignment](images/slide2-rbac-assignment.png)
-
-### 3) User Membership – RBAC Enforcement
 ![RBAC Enforcement](images/slide3-rbac-enforcement.png)
+
 
 ---
 
