@@ -106,7 +106,7 @@ Departmental OUs make it easier to:
 ---
 
 ## Contact
-If you work in IAM / Identity Security and want to connect, feel free to reach out on LinkedIn.
+If you work in IAM / Identity Security and want to connect, feel free to reach out on LinkedIn. https://www.linkedin.com/in/shiphrah-identity/
 
 
 ---
